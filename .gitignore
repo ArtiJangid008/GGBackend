@@ -1,0 +1,17 @@
+#ignore vs temp files,build results, and user-specific files.
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsidx
+
+#ignore build results
+bin/
+obj/
+
+#ignore published files
+publish/
+
+#Others
+*.log
